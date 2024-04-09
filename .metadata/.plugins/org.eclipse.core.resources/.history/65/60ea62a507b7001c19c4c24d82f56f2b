@@ -1,0 +1,15 @@
+
+public class Student {
+	
+	String name;
+	int rollNo;
+	char gender;
+	
+	public void print()
+	{
+		System.out.println("Name: "+name+" , RollNo. "+
+	                        rollNo+", Gender: "+gender);
+		
+	}
+
+}

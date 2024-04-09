@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String []args)
+	{
+		Student S = new Student();
+		Student S1 = new Student("Sameer",89,'M');
+		
+		S.print();
+		S1.print();
+		S1.setName ="Aditya";
+		S1.print();
+	}
+}

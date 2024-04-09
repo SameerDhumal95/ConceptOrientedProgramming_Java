@@ -1,0 +1,13 @@
+
+public class ComplexOpr {
+	
+	
+	public static Complex add(Complex x, Complex y)
+	{
+		Complex temp = new Complex();
+		
+		temp.real = x.real + y.real;
+		temp.imag = x.imag + y.imag;
+	}
+
+}
